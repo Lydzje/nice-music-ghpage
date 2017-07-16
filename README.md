@@ -7,8 +7,8 @@ This github-page is for educational purposes and is not finished yet. I'm just t
 *Images may not be related to real authors, sorry for that* :pensive:
 
 <br>
+<br>
 
-Contact me if there's any problem via this email: lydzjesoftware@gmail.com
+_Contact me if there's any problem via this email: lydzjesoftware@gmail.com_
 
-<br><br>
 <p align="center">© 2017 Lydzje Software</p>
