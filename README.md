@@ -4,7 +4,7 @@ This github-page is for educational purposes and is not finished yet. I'm just t
 
 **You can visit this gh-page here:** https://lydzje.github.io/nice-music-ghpage/
 
-*Images may not be related to real authors, sorry for that* :pensive:
+*Images may not be related to the listed authors, sorry for that* :pensive:
 
 <br>
 <br>
