@@ -1,0 +1,44 @@
+/*Copyright (c) 2017 Lydzje Software - All Rights Reserved.*/
+article {
+  display: block;
+  padding-bottom: 1em;
+}
+
+#contact-links {
+  display: block;
+  width: 700px;
+}
+
+#contact-links ul {
+  list-style: none;
+  text-align: center;
+}
+
+#contact-links li {
+  display: inline-block;
+}
+
+#contact-links a {
+  color: black;
+  font-size: 1.5em;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#contact-links a:hover {
+  color: #666666;
+}
+
+#contact-links a:active {
+  color: black;
+}
+
+.contact-icon {
+  display:inline-block;
+  padding: 0.5em 0.5em 0.5em 1em;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+}

@@ -1,0 +1,138 @@
+/*Copyright (c) 2017 Lydzje Software - All Rights Reserved.*/
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f9fcfc;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#side-nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 4em;
+  background-color: #f6f6f6;
+  box-shadow: 0px 0px 0.2em #000000;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#side-nav:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0px 0px 0.5em #000000;
+}
+
+#side-nav:active {
+  background-color: #e9e9e9;
+  box-shadow: 0px 0px 0.8em #000000;
+}
+
+#menu-button {
+  display: block;
+  width: 3em;
+  margin: 1em auto;
+  text-align: center;
+}
+
+i.fa.fa-navicon {
+  color: #555555;
+  font-size: 2em;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+i.fa.fa-navicon:hover {
+  color: #000000;
+}
+
+#nav-elements {
+  display: hidden;
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#nav-elements ul {
+  list-style: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#nav-elements li {
+  background-color: rgba(255, 0, 0, 0);
+  padding: 1em;
+  font-size: 2em;
+  font-weight: bold;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+
+#nav-elements li:hover {
+  background-color: #e0e0e0;
+}
+
+#nav-elements li:active {
+  background-color: #d0d0d0;
+}
+
+#authors-section {
+  z-index: 2;
+}
+
+#authors-section, #iframe-interface {
+  position: fixed;
+  top: 0;
+  left: 5em;
+  bottom: 0;
+  right: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#author-frame {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: all; /* Chrome/Safari */
+  -moz-user-select: all; /* Firefox */
+  -ms-user-select: all; /* IE10+ */
+}
+
+.site-section {
+  margin: 0 2em;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin: 1em 0;
+  padding: 2em 0 1em 0;
+  text-align: center;
+  font-size: 0.8em;
+}

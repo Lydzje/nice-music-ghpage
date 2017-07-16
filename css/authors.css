@@ -1,0 +1,77 @@
+/*Copyright (c) 2017 Lydzje Software - All Rights Reserved.*/
+.site-section {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+article {
+  margin: 1em 0;
+  display: flex;
+}
+
+.author-photo {
+  border-radius: 1em;
+}
+
+.media {
+  list-style: none;
+  padding: 0 2em;
+  margin: 0;
+}
+
+.media-element {
+  padding: 0.2em;
+}
+
+.media-element:hover a {
+  color: #888888;
+  text-decoration: underline;
+}
+
+.media-element:active a {
+  color: black;
+  text-decoration: underline;
+}
+
+.media-link {
+}
+
+.media-icon {
+  display:inline-block;
+  width: 2em;
+  text-align: center;
+}
+
+.soundcloud {
+  width: 50%;
+  padding-top: 1em;
+  display: block;
+}
+
+.soundcloud h2 {
+  margin-bottom: 0.5em;
+}
+
+.soundcloud hr {
+  margin-bottom: 1em;
+}
+
+.soundcloud-profile {
+  margin: auto;
+  width: 400px;
+  height: 420px;;
+  border-style: hidden;
+  border-radius: 0.5em;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.soundcloud-profile:hover {
+  box-shadow: 0.0em 0.1em 0.2em #000000;
+}
