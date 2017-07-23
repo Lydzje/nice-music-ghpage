@@ -20,41 +20,43 @@
 
   <div id="site-content">
 
-    <nav id="side-nav" onclick="openNav()">
+    <nav id="side-nav">
       <div id="menu-button">
         <i class="fa fa-navicon"></i>
       </div>
       <div id="nav-elements">
         <ul>
           <!--
-            I used JavaScript instead of links to make users not able
+          I used JavaScript instead of links to make users not able
           to open these links with the middle mouse button.
         -->
-          <li onclick="goToAuthor('home.html')">
-            <i class="fa fa-home"></i>
-          </li>
-          <li onclick="goToAuthor('authors/rosy.html')">ROSY</li>
-          <li onclick="goToAuthor('authors/hye-sung.html')">HYE SUNG</li>
-          <li onclick="goToAuthor('authors/naked-bibi.html')">NAKED BIBI</li>
-          <li onclick="goToAuthor('authors/yeonsue.html')">YEONSUE</li>
-        </ul>
-      </div>
-    </nav>
+        <li onclick="goToAuthor('home.html')">
+          <i class="fa fa-home"></i>
+        </li>
+        <li onclick="goToAuthor('authors/rosy.html')">ROSY</li>
+        <li onclick="goToAuthor('authors/hye-sung.html')">HYE SUNG</li>
+        <li onclick="goToAuthor('authors/naked-bibi.html')">NAKED BIBI</li>
+        <li onclick="goToAuthor('authors/yeonsue.html')">YEONSUE</li>
+      </ul>
+    </div>
+  </nav>
 
-    <section id="authors-section">
-      <iframe id="author-frame" src="home.html" name="author-frame"></iframe>
-    </section>
-    <!--
-      This "interface" ables to know when users clicks on the
-    iframe so the navigation tab can close in case it's opened.
-   -->
-    <section id="iframe-interface" onclick="closeNav()"></section>
+  <section id="authors-section">
+    <iframe id="author-frame" src="home.html" name="author-frame"></iframe>
+  </section>
 
-  </div>
+  <!--
+  This "interface" makes possible to know when users clicks
+  on the iframe so the navigation tab can close in case it's
+  opened.
+-->
+<section id="iframe-interface"></section>
+
+</div>
 
 
-  <!-- SCRIPTS -->
-  <script src="js/master.js"></script>
+<!-- SCRIPTS -->
+<script src="js/master.js"></script>
 
 </body>
 

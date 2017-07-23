@@ -3,7 +3,6 @@
 
 // VARIABLES
 // ---------
-
 var sideNav = document.getElementById('side-nav');
 var menuButton = document.getElementById('menu-button');
 var navElements = document.getElementById('nav-elements');
@@ -13,26 +12,32 @@ var navExpanded = false;
 
 var authorFrame = document.getElementById('author-frame');
 
+// INITIALIZATION
+// --------------
+sideNav.addEventListener("click", openNav, true);
+iframeInterface.addEventListener("click", closeNav, true);
+
 // METHODS
 // -------
-
 function openNav() {
-  sideNav.style.width = "16em";
-  menuButton.style.display = "none";
-  navElements.style.display = "block";
-  navElements.style.pointerEvents = "auto";
-  navElements.style.height = "100%";
-  navElements.style.opacity = "1";
-  navElements.style.WebkitTransition = "2s";
-  navElements.style.trransition = "2s";
-  authorsSection.style.left = "17em";
-  authorsSection.style.zIndex = "-1";
-  iframeInterface.style.left = "17em";
-  navExpanded = true;
+  if (!navExpanded) {
+    sideNav.style.width = "16em";
+    menuButton.style.display = "none";
+    navElements.style.display = "block";
+    navElements.style.pointerEvents = "auto";
+    navElements.style.height = "100%";
+    navElements.style.opacity = "1";
+    navElements.style.WebkitTransition = "2s";
+    navElements.style.trransition = "2s";
+    authorsSection.style.left = "17em";
+    authorsSection.style.zIndex = "-1";
+    iframeInterface.style.left = "17em";
+    navExpanded = true;
+  }
 }
 
 function closeNav() {
-  if(navExpanded){
+  if (navExpanded) {
     sideNav.style.width = "4em";
     menuButton.style.display = "block";
     navElements.style.display = "hidden";
