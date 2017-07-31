@@ -9,6 +9,6 @@ This github-page is for educational purposes and is not finished yet. I'm just t
 <br>
 <br>
 
-_Contact me if there's any problem via this email: lydzjesoftware@gmail.com_
+_Contact me if there's any problem via email: lydzjesoftware@gmail.com_
 
 <p align="center">© 2017 Lydzje Software</p>
