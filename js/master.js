@@ -1,4 +1,4 @@
-/*Copyright (c) 2017 Lydzje Software - All Rights Reserved.*/
+/*Copyright (c) 2017 Lydzje - All Rights Reserved.*/
 "use strict";
 
 // VARIABLES
