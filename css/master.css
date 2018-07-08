@@ -137,3 +137,18 @@ footer {
   text-align: center;
   font-size: 0.8em;
 }
+
+footer a {
+  color: black;
+  font-weight: bold;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer .fa-github {
+  font-size: 1.2em;
+}
