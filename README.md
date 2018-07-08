@@ -11,4 +11,4 @@ This github-page is for educational purposes and is not finished yet. I'm just t
 
 _Contact me if there's any problem via email: to.lydzje@gmail.com_
 
-<p align="center">© 2017 Lydzje</p>
+<p align="center">© 2017 Lydzje - No rights reserved</p>
